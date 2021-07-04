@@ -1,0 +1,45 @@
+.notification {
+    position: relative;
+
+    margin-top: 75px;
+
+    width: 300px;
+    height: 295px;
+}
+
+.notificationCard {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    animation: showNotificationCard 0.5s;
+
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes showNotificationCard {
+    from {
+        top: -100%
+    }
+    to {
+        top: 0;
+    }
+}
+
+.notificationHeader {
+    color: #27AE60;
+}
+
+.notificationMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 25px;
+    margin-left: 25px;
+
+    width: 250px;
+    height: 70px;
+}

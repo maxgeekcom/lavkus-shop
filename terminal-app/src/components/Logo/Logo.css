@@ -1,0 +1,16 @@
+.logoShop {
+    color: #6520F9;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+    width: 160px;
+    height: 50px;
+}

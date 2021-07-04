@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server-side for lavkus-shop",
+  "main": "app.js",
+  "scripts": {
+    "client": "HTTPS=true PORT=3000 npm run start --prefix ../client-app",
+    "terminal": "HTTPS=true PORT=3001 npm run start --prefix ../terminal-app",
+    "server": "nodemon app.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run terminal\""
+  },
+  "author": "Maxim Kozlov <maxgeekcom@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "canvas": "^2.7.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "face-api.js": "^0.22.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "object-hash": "^2.1.1",
+    "pg-promise": "^10.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

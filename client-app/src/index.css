@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 98%;
+
+  user-select: none;
+
+}
+
+body:before {
+  background: url("./img/backgroundBW.svg");
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+  font-size: 16px;
+  line-height: 19px;
+
+  border: none;
+  outline: none;
+
+  padding: 0 15px 0 15px;
+
+  margin-top: 5px;
+
+  width: 170px;
+  height: 30px;
+}
+
+button {
+  color: #ffffff;
+  background: #6520F9;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+  border-radius: 20px;
+  border: none;
+  outline: none;
+
+  width: 100px;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  pointer-events: none;
+  object-fit: cover;
+}
+
+.label {
+  color: #6520F9;
+
+  margin-left: 12px;
+
+  font-size: 16px;
+  line-height: 19px;
+
+  height: 20px;
+}
+
+.card {
+  background: rgba(230, 230, 230, 0.9);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+
+  color: #6520F9;
+
+  font-size: 30px;
+
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.subheader {
+  color: #6520F9;
+
+  font-size: 16px;
+
+  margin-top: 15px;
+  margin-left: 25px;
+
+}
+
+.groupLabelInput {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btnLink {
+  color: #FFFFFF;
+  background: #6520F9;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100px;
+  height: 30px;
+}
+
+.confirmButton {
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}

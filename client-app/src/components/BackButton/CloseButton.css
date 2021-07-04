@@ -1,0 +1,25 @@
+.closeButton {
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    animation: showCloseButton 0.6s;
+    animation-fill-mode: both;
+
+    left: 0;
+    right: 0;
+
+    width: 75px;
+    height: 75px;
+}
+
+@keyframes showCloseButton {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 45px;
+    }
+}

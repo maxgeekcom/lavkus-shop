@@ -1,0 +1,116 @@
+.editProfile {
+    position: relative;
+
+    margin-top: 75px;
+
+    width: 300px;
+    height: 1020px;
+}
+
+.editUserPicCardAnimation {
+    position: absolute;
+    animation: showEditUserPicCard 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes showEditUserPicCard {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.editUserPicCard {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+}
+
+.editUserPicButton {
+    background: none;
+    border-radius: 0;
+
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+}
+
+.personalDataCard {
+    position: absolute;
+    animation: showPersonalDataCard 0.6s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes showPersonalDataCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 445px;
+    }
+}
+
+#editProfileLastName {
+    margin-top: 15px;
+}
+
+#editProfileFirstName {
+    margin-top: 15px;
+}
+
+.changePersonalDataButton {
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editPasswordCard {
+    position: absolute;
+    animation: showEditPasswordCard 0.6s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes showEditPasswordCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 170px;
+    }
+}
+
+#editProfileOldPassword {
+    margin-top: 15px;
+}
+
+#editProfileNewPassword {
+    margin-top: 15px;
+}
+
+.changePasswordButton {
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}

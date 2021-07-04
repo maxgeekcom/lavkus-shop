@@ -1,0 +1,43 @@
+.signUpCard {
+    position: absolute;
+    animation: showSignInCard 0.5s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 585px;
+}
+
+@keyframes showSignInCard {
+    from {
+        bottom: -100px;
+    }
+    to {
+        bottom: 45px;
+    }
+}
+
+#signUpLastName {
+    margin-top: 30px;
+}
+
+#signUpFirstName {
+    margin-top: 15px;
+}
+
+#signUpLogin {
+    margin-top: 15px;
+}
+
+#signUpPassword {
+    margin-top: 15px;
+}
+
+#signUpRepeatPassword {
+    margin-top: 15px;
+}
+
+#singUpNextButton {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;;
+}

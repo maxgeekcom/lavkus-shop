@@ -1,0 +1,17 @@
+.idea
+
+# client-app
+/client-app/node_modules
+/client-app/build
+/client-app/.eslintcache
+
+# terminal-app
+/terminal-app/node_modules
+/terminal-app/build
+/terminal-app/.eslintcache
+
+# server
+/server/cert
+/server/config
+/server/images
+/server/node_modules

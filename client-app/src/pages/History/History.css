@@ -1,0 +1,71 @@
+.history {
+    position: relative;
+
+    margin-top: 75px;
+
+    width: 300px;
+    height: 520px;
+}
+
+.historyCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    animation: showHistoryCard 0.5s;
+
+    width: 300px;
+    height: 350px;
+}
+
+@keyframes showHistoryCard {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.historyTable {
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+
+    width: 250px;
+    height: 200px;
+}
+
+.purchaseList {
+    font-size: 18px;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 250px;
+}
+
+.itemPrice {
+    text-align: center;
+}
+
+.purchaseListColumnName {
+    color: #6520F9;
+}
+
+#productNames {
+    width: 175px;
+    height: 25px;
+}
+
+#productPrices {
+    width: 75px;
+    height: 25px;
+}

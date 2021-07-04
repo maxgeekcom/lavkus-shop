@@ -1,0 +1,46 @@
+.error {
+    position: relative;
+
+    margin-top: 75px;
+
+    width: 300px;
+    height: 295px;
+}
+
+.errorCard {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    animation: showErrorCard 0.5s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes showErrorCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 45px;
+    }
+}
+
+#errorHeader {
+    color: #EB5757;
+}
+
+.errorMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 25px;
+    margin-left: 25px;
+
+    width: 250px;
+    height: 70px;
+}

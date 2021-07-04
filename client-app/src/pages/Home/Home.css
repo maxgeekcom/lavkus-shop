@@ -1,0 +1,87 @@
+.home {
+    position: relative;
+
+    margin-top: 75px;
+
+    width: 300px;
+    height: 715px;
+}
+.descriptionShopCard {
+    animation: showFirstCard 0.8s;
+
+    position: absolute;
+
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes showFirstCard {
+    from {
+        top: -100%}
+    to {
+        top: 0;
+    }
+}
+
+.descriptionShop {
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 33px;
+
+    display: inline-block;
+    margin-top: 43px;
+    margin-left: 25px;
+
+    width: 250px;
+    height: 165px;
+}
+
+.highlighter {
+    color: #6520F9;
+}
+
+.descriptionPaymentCard {
+    animation: showSecondCard 1s;
+    animation-fill-mode: both;
+    position: absolute;
+
+    margin-bottom: 45px;
+
+    width: 300px;
+    height: 370px;
+}
+
+@keyframes showSecondCard {
+    from {
+        bottom: -100%
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+.slogan {
+    -webkit-text-size-adjust: 91%;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 230px;
+    height: 70px;
+}
+
+.paymentPresentation {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}

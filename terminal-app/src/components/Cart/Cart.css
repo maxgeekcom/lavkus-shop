@@ -1,0 +1,113 @@
+.cart {
+    position: absolute;
+
+    display: flex;
+
+    right: 15px;
+    top: 15px;
+
+    width: 300px;
+    height: 700px;
+}
+
+.itemsHeader {
+    /*border: 1px black solid ;*/
+
+    margin-top: 25px;
+    margin-left: 25px;
+
+    width: 110px;
+    height: 35px;
+}
+
+.itemsTable {
+    font-size: 20px;
+    margin-top: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+
+    width: 250px;
+    height: 485px;
+}
+
+.itemsTableBody {
+
+}
+
+#itemNameHeader {
+    font-size: 15px;
+    border-bottom: 2px solid #6520F9;
+    outline: none;
+}
+
+.itemName{
+    text-align: center;
+    padding: 0;
+    width: 145px;
+    height: 30px;
+}
+
+#itemsNumberHeader {
+    font-size: 15px;
+    border-bottom: 2px solid #6520F9;
+    outline: none;
+}
+
+.itemsNumber {
+    text-align: center;
+    padding: 0;
+
+    width: 30px;
+    height: 30px;
+}
+
+#priceItemsHeader {
+    font-size: 15px;
+    border-bottom: 2px solid #6520F9;
+}
+
+.priceItems {
+    text-align: center;
+
+    padding: 0;
+
+    width: 75px;
+    height: 30px;
+}
+
+.totalLine {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: auto;
+
+    width: 250px;
+    height: 5px;
+}
+
+.totalPrice {
+    font-size: 30px;
+
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 250px;
+    height: 30px;
+}
+
+.cartController {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cleanCartButton {
+    background: #eb5757;
+    margin-right: 15px;
+}
+
+.payButton {
+    background: #6520F9;
+}

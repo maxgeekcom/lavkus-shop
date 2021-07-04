@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+  border-radius: 20px;
+
+  border: none;
+  outline: none;
+
+  width: 100px;
+  height: 30px;
+}
+
+.card {
+  background: rgba(230, 230, 230, 0.8);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: #6520F9;
+  font-size: 30px;
+}

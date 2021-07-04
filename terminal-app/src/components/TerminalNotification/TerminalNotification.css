@@ -1,0 +1,63 @@
+.terminalNotificationCard {
+    position: absolute;
+
+    top: 15px;
+    left: 50%;
+
+    z-index: 2;
+
+    border-radius: 15px;
+
+    margin-left: -175px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 80px;
+}
+
+.messageContentContainer {
+    font-size: 20px;
+
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 60px;
+}
+
+.dialogContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 80px;
+}
+
+.dialogMessage {
+    text-align: center;
+
+    width: 300px;
+}
+
+.dialogController {
+    margin-top: 10px;
+    width: 215px;
+}
+
+.confirmDialogButton {
+    background: #6FCF97;
+}
+
+.rejectDialogButton {
+    background: #EB5757;
+    margin-left: 15px;
+}

@@ -1,0 +1,185 @@
+.profile {
+    position: relative;
+
+    margin-top: 75px;
+
+    width: 300px;
+    height: 845px;
+}
+
+.userPicCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    animation: showUserPicCard 0.5s;
+
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes showUserPicCard {
+    from {
+        top: -100%
+    }
+    to {
+        top:0;
+    }
+
+}
+
+.userPic {
+    background: #ffffff;
+    border: 8px solid #6520F9;
+    border-radius: 150px;
+
+    width: 200px;
+    height: 200px;
+}
+
+.userNameCard {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    animation: showUserNameCard 0.6s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 100px;
+}
+
+
+@keyframes showUserNameCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 420px;
+    }
+}
+
+
+.labelUserNameCard {
+    margin-top: 15px;
+    margin-left: 25px;
+
+    width: 69px;
+    height: 20px;
+}
+
+.userName {
+    color: #000000;
+    font-size: 25px;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.balanceCard {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    animation: showBalanceCard 0.6s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 100px;
+}
+
+@keyframes showBalanceCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 295px;
+    }
+}
+
+.labelBalanceCard {
+    margin-top: 15px;
+    margin-left: 25px;
+
+    width: 54px;
+    height: 20px;
+}
+
+.balance {
+    color: #000000;
+
+    font-size: 25px;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lastPurchaseCard {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    animation: showPurchaseCard 0.6s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 100px;
+}
+
+@keyframes showPurchaseCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 170px;
+    }
+}
+
+.lastPurchaseLabel {
+    margin-top: 15px;
+    margin-left: 25px;
+
+    width: 54px;
+    height: 20px;
+}
+
+.lastPurchase {
+    color: #000000;
+
+    font-size: 25px;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exitCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    animation: showExitCard 0.6s;
+    animation-fill-mode: both;
+
+    width: 300px;
+    height: 100px;
+}
+
+@keyframes showExitCard {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 45px;
+    }
+}
+
+.exit {
+    color: #EB5757;
+
+    font-size: 25px;
+}
